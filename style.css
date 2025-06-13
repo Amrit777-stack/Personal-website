@@ -1,0 +1,230 @@
+.top-container{
+    display: flex;
+    text-align: center;
+    position:relative;
+    justify-content: center;
+    background-color: #FFF1D5;
+    height:800px;
+    margin-bottom: 100px;
+}
+.title-name{
+    display:block;
+    position: absolute;
+}
+h1{
+     color:#8C3061;
+    font-size:4rem;
+  font-family: "Lobster", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+h2{
+   color:#8C3061;
+    font-size:3rem;
+  font-family: "Edu NSW ACT Cursive", cursive;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+.beach{
+    position:absolute;
+    top:300px;
+    left:0px;
+}
+.kite{
+    position:absolute;
+    height:200px;
+    max-width:200px;
+    top:100px;
+}
+@media (max-width:700px){
+.top-container{
+    min-height:100vh;
+    max-height: 572px;
+    align-items: center;
+}
+.title-name{
+    display:block;
+    position:relative;
+    top:50px;
+}
+h1 {
+    text-align: center;
+  display:block;
+     color:#8C3061;
+    font-size:2rem;
+  font-family: "Lobster", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+h2{
+     text-align: center;
+    display:block;
+   color:#8C3061;
+    font-size:1rem;
+  font-family: "Edu NSW ACT Cursive", cursive;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+.kite{
+    position:static;
+    max-width:50vw;
+    height:60px;
+}
+.beach{
+    position:static;
+    max-height: 300px;
+    max-width: 90vw;
+    margin: auto;
+}
+}
+@media (max-width:110px){
+    h1{
+        font-size:1rem;
+    }
+    h2{
+        font-size: 0.5rem;
+    }
+}
+.middle-container{
+   
+}
+body{
+    color:black;
+}
+.profile{
+    text-align: center;
+}
+.profile-pic{
+    border-radius: 50%;
+    height:300px;
+    width:300px;
+}
+
+p{
+    display: block;
+      font-family: "Lato", sans-serif;
+    font-size: 1rem;
+}
+@media (max-width:700px){
+   
+.profile-pic{
+    border-radius: 50%;
+    max-height:150px;
+    max-width:150px;
+}
+p{
+    display: block;
+      font-family: "Lato", sans-serif;
+    font-size: .5rem;
+}
+}
+@media (max-width:200px){
+    .profile-pic{
+    border-radius: 50%;
+    max-height:60px;
+    max-width:60px;}
+    p,.skill1,.skill2,.btn,.connect,.touch{
+        font-size: .5rem;
+    }
+}
+.myskills,.touch,.intro1{
+    font-family:"Lato",sans-serif ;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 100px;
+    font-size: 2rem;
+}
+.skill-container{
+    display:grid;
+    row-gap: 100px;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 1fr;
+    margin-bottom: 150px;
+}
+.img1,.img2{
+    width:250px;
+    height:250px;
+    margin-left: 200px;
+    margin-bottom:0 ;
+}
+.skill1{
+    margin-top: 30px;
+}
+.problem-solving,.proficiency{
+    font-size: 2rem;
+}
+
+@media (max-width:700px){
+    .img1,.img2{
+        width: 150px;
+        height:150px;
+        margin-left: 30px;
+    }
+    .problem-solving,.proficiency{
+        text-align: justify;
+    font-size: 1rem;
+}
+.skill1,.skill2{
+  margin-top: 0;
+    font-size:.5rem;
+  font-weight: 500;
+  font-style: normal;
+}
+.intro1,.myskills{
+    font-size: 1.5rem;
+}
+}
+.dotted{
+    color:#8C3061;
+    border: dotted  6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+.contact-container{
+    display:block;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.touch{
+    font-weight: 500;
+}
+.connect{
+    font-size:1rem;
+   font-family:"Lato",sans-serif ;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  margin-bottom: 35px;
+}
+.btn{
+    background-color:#03A791;
+    color: aliceblue;
+    border-radius: 8px;
+    border-color: black;
+    font-size: 1.5rem;
+}
+.footer-container{
+    display:block;
+    background-color:  #FFF1D5;
+    height:150px;
+    text-align: center;
+    padding: 50px 0 20px;
+}
+
+@media (max-width:700px){
+.touch{
+    font-size: 1rem;
+}
+.connect{
+    font-size: 0.5rem;
+}
+.btn{
+    font-size:0.75rem;
+}
+.footer,.copyright{
+    font-size: 0.5rem;
+}
+}
